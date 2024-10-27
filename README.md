@@ -91,3 +91,6 @@ shim_recipe.save()
 shim_recipe = Recipe(product=shim, raw_material=zamok, quantity=1)
 shim_recipe.save()
 ```
+
+## API Endpoints
+1. `/api/product-recipe?ko_ylak=30&shim=20` - GET
